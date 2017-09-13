@@ -1,7 +1,7 @@
 from random import *
 
 y = randint(1,100)
-print y
+print "Value choosen by computer " + str(y)
 x = input("What is your guess? ")
 
 while x!=y:
